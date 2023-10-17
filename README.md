@@ -20,6 +20,7 @@ To use this project, you need to have Python installed on your system. Additiona
 
 ```bash
 pip install requests beautifulsoup4 lxml
+```
 
 Usage
 To use the CoinMarket class, you can create an instance of it and call its methods to retrieve cryptocurrency data. Here's a basic example of how to use the class:

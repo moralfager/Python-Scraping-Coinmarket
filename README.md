@@ -1,4 +1,4 @@
-# CoinMarket Python Project Readme
+# CoinMarket Python Project
 
 This readme file provides an overview of your Python project that utilizes web scraping to gather information about cryptocurrencies from CoinMarketCap. The project consists of a Python script that allows you to retrieve various data related to cryptocurrencies and save it in different formats.
 

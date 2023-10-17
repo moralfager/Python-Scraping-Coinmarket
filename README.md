@@ -27,16 +27,21 @@ To use the CoinMarket class, you can create an instance of it and call its metho
 
 python
 Copy code
+```
 from coinmarket import CoinMarket
-
+```
+```
 # Create an instance of the CoinMarket class
 coin_market = CoinMarket()
-
+```
+```
 # Get the URLs of cryptocurrencies and save them to a file
 coin_market.url_to_txt('unique_urls.txt')
-
+```
+```
 # Retrieve and print information about the top N cryptocurrencies
 coin_market.get_top(10)
+```
 Functionality
 The CoinMarket class provides several methods for different tasks:
 
@@ -54,21 +59,29 @@ To get the unique URLs of cryptocurrencies and save them to a file:
 
 python
 Copy code
+```
 coin_market.url_to_txt('unique_urls.txt')
+```
 To retrieve information about the top 10 cryptocurrencies:
 
 python
 Copy code
+```
 coin_market.get_top(10)
+```
 To retrieve information about all cryptocurrencies listed on CoinMarketCap:
 
 python
 Copy code
+```
 coin_market.get_all_info()
+```
 To fetch recent news related to a specific cryptocurrency (e.g., Bitcoin):
 
 python
 Copy code
+```
 news_data = coin_market.get_news('Bitcoin')
+```
 Contributing
 Contributions to this project are welcome. If you'd like to improve the code or add new features, please feel free to submit a pull request. You can also open issues to report bugs or suggest enhancements.
